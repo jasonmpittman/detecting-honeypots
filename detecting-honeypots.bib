@@ -1,0 +1,98 @@
+
+@inproceedings{mukkamala_detection_2007,
+	address = {West Point, NY, USA},
+	title = {Detection of {Virtual} {Environments} and {Low} {Interaction} {Honeypots}},
+	isbn = {978-1-4244-1303-4 978-1-4244-1304-1},
+	url = {http://ieeexplore.ieee.org/document/4267547/},
+	doi = {10.1109/IAW.2007.381919},
+	abstract = {This paper focuses on the detection of virtual environments and low interaction honeypots by using a feature set that is built using traditional system and network level finger printing mechanisms. Earlier work in the area has been mostly based on the system level detection. The results aim at bringing out the limitations in the current honeypot technology.},
+	language = {en},
+	urldate = {2020-07-07},
+	booktitle = {2007 {IEEE} {SMC} {Information} {Assurance} and {Security} {Workshop}},
+	publisher = {IEEE},
+	author = {Mukkamala, S. and Yendrapalli, K. and Basnet, R. and Shankarapani, M. K. and Sung, A. H.},
+	month = jun,
+	year = {2007},
+	pages = {92--98},
+	annote = {Cites Holz2005},
+	file = {Mukkamala et al. - 2007 - Detection of Virtual Environments and Low Interact.pdf:C\:\\Users\\Jason\\Zotero\\storage\\QZR44RRJ\\Mukkamala et al. - 2007 - Detection of Virtual Environments and Low Interact.pdf:application/pdf}
+}
+
+@inproceedings{vetterl_bitter_2018,
+	title = {Bitter {Harvest}: {Systematically} {Fingerprinting} {Low}- and {Medium}-interaction {Honeypots} at {Internet} {Scale}},
+	abstract = {The current generation of low- and medium interaction honeypots uses off-the-shelf libraries to provide the transport layer. We show that this architecture is fatally ﬂawed because the protocols are implemented subtly differently from the systems being impersonated. We present a generic technique for systematically ﬁngerprinting low- and medium interaction honeypots at Internet scale with just one packet and an ERR (Equal Error Rate) of 0.0183. We conduct Internet-wide scans and identify 7 605 honeypot instances across nine different honeypot implementations for the most important network protocols SSH, Telnet, and HTTP. For SSH honeypots we also determined their patch level and ﬁnd that they are poorly maintained – 27\% of the honeypots have not been updated within the last 31 months and only 39\% incorporate improvements from 7 months ago. We believe our ﬁndings to be a ‘class break’ in that trivial patches cannot address the issue.},
+	language = {en},
+	author = {Vetterl, Alexander and Clayton, Richard},
+	year = {2018},
+	pages = {13},
+	annote = {Cites Mukkamala2007},
+	file = {Vetterl and Clayton - Bitter Harvest Systematically Fingerprinting Low-.pdf:C\:\\Users\\Jason\\Zotero\\storage\\X73GT3ZA\\Vetterl and Clayton - Bitter Harvest Systematically Fingerprinting Low-.pdf:application/pdf}
+}
+
+@inproceedings{morishita_detect_2019,
+	address = {Arlington, VA},
+	title = {Detect {Me} {If} {You}... {Oh} {Wait}. {An} {Internet}-{Wide} {View} of {Self}-{Revealing} {Honeypots}},
+	abstract = {Open-source honeypots are a vital component in the protection of networks and the observation of trends in the threat landscape. Their open nature also enables adversaries to identify the characteristics of these honeypots in order to detect and avoid them. In this study, we investigate the prevalence of 14 open-source honeypots running more or less default conﬁgurations, making them easily detectable by attackers. We deploy 20 simple signatures and test them for false positives against servers for domains in the Alexa top 10,000, ofﬁcial FTP mirrors, mail servers in real operation, and real IoT devices running telnet. We ﬁnd no matches, suggesting good accuracy. We then measure the Internet-wide prevalence of default open-source honeypots by matching the signatures with Censys scan data and our own scans. We discovered 19,208 honeypots across 637 Autonomous Systems that are trivially easy to identify. Concentrations are found in research networks, but also in enterprise, cloud and hosting networks. While some of these honeypots probably have no operational relevance, e.g., they are student projects, this explanation does not ﬁt the wider population. One cluster of honeypots was conﬁrmed to belong to a well-known security center and was in use for ongoing attack monitoring. Concentrations in an another cluster appear to be the result of government incentives. We contacted 11 honeypot operators and received response from 4 operators, suggesting the problem of lack of network hygiene. Finally, we ﬁnd that some honeypots are actively abused by attackers for hosting malicious binaries. We notiﬁed the owners of the detected honeypots via their network operators and provided recommendations for customization to avoid simple signature-based detection. We also shared our results with the honeypot developers.},
+	language = {en},
+	publisher = {IEEE},
+	author = {Morishita, Shun and Hoizumi, Takuya and Ueno, Wataru and Tanabe, Rui and Gañán, Carlos},
+	year = {2019},
+	pages = {13},
+	annote = {Cites Vetterl2018},
+	file = {Morishita et al. - Detect Me If You... Oh Wait. An Internet-Wide View.pdf:C\:\\Users\\Jason\\Zotero\\storage\\C7GYW52T\\Morishita et al. - Detect Me If You... Oh Wait. An Internet-Wide View.pdf:application/pdf}
+}
+
+@article{dornseif_nosebreak_2004,
+	title = {{NoSEBrEaK} - {Attacking} {Honeynets}},
+	url = {http://arxiv.org/abs/cs/0406052},
+	doi = {10.1109/IAW.2004.1437807},
+	abstract = {It is usually assumed that Honeynets are hard to detect and that attempts to detect or disable them can be unconditionally monitored. We scrutinize this assumption and demonstrate a method how a host in a honeynet can be completely controlled by an attacker without any substantial logging taking place.},
+	language = {en},
+	urldate = {2020-07-09},
+	journal = {Proceedings from the Fifth Annual IEEE SMC Information Assurance Workshop, 2004.},
+	author = {Dornseif, Maximillian and Holz, Thorsten and Klein, Christian N.},
+	year = {2004},
+	note = {arXiv: cs/0406052},
+	keywords = {Computer Science - Cryptography and Security, K.6.5, Computer Science - Computers and Society, K.5.m},
+	pages = {123--129},
+	file = {Dornseif et al. - 2004 - NoSEBrEaK - Attacking Honeynets.pdf:C\:\\Users\\Jason\\Zotero\\storage\\HR7MMGJF\\Dornseif et al. - 2004 - NoSEBrEaK - Attacking Honeynets.pdf:application/pdf}
+}
+
+@incollection{chen_honeypot_2012,
+	address = {New York, NY},
+	title = {A {Honeypot} {Detection} {Method} {Based} on {Characteristic} {Analysis} and {Environment} {Detection}},
+	isbn = {978-1-4419-8848-5 978-1-4419-8849-2},
+	url = {http://link.springer.com/10.1007/978-1-4419-8849-2_26},
+	abstract = {Honeypot is an inveigler environment for the network safeguards to monitor the behaviors, methods, policies, and other information of the attacker. To an attacker, it is important to judge whether a system is a honeypot or not. There are many methods to judge the honeypot. To enhance the accuracy rate of the judgment, the chapter offers a honeypot detection model ﬁrst, then analyzes the essential characteristics of the honeypot, and ﬁnally suggests a detection method also analyzing the result of the experimentation.},
+	language = {en},
+	urldate = {2020-07-09},
+	booktitle = {2011 {International} {Conference} in {Electrics}, {Communication} and {Automatic} {Control} {Proceedings}},
+	publisher = {Springer New York},
+	author = {Wenda, Deng and Ning, Deng},
+	editor = {Chen, Ran},
+	year = {2012},
+	doi = {10.1007/978-1-4419-8849-2_26},
+	pages = {201--206},
+	file = {Wenda and Ning - 2012 - A Honeypot Detection Method Based on Characteristi.pdf:C\:\\Users\\Jason\\Zotero\\storage\\DTKRXLAF\\Wenda and Ning - 2012 - A Honeypot Detection Method Based on Characteristi.pdf:application/pdf}
+}
+
+@article{innes_honeypots_2006,
+	title = {Honeypots: {How} do you know when you are inside one?},
+	volume = {Edith Cowan University},
+	shorttitle = {Honeypots},
+	url = {http://ro.ecu.edu.au/adf/28},
+	doi = {10.4225/75/57B131F0C7052},
+	abstract = {This paper will discuss honeypots and their use and effectiveness as a security measure in an IT environment. It will specifically discuss various methods of honeypot implementations. Furthermore, this paper will look into the weaknesses within a honeypot system. This will include attacks against honeypots and methods a hacker may use to detect the presence of a honeypot or the fact that he/she is actually inside one. Finally this paper will discuss methods of further securing honeypots and ways the community is dealing with security flaws as they are identified.},
+	language = {en},
+	urldate = {2020-07-09},
+	journal = {4th Australian Digital Forensics Conference},
+	author = {Innes, Simon and Valli, Craig},
+	year = {2006},
+	note = {Medium: PDF
+Publisher: Security Research Institute (SRI), Edith Cowan University},
+	keywords = {Computer System Security},
+	pages = {December 4th 2006.},
+	annote = {SeriesInformation
+4th Australian Digital Forensics Conference, Edith Cowan University, Perth Western Australia, December 4th 2006.},
+	file = {Innes and Valli - 2006 - Honeypots How do you know when you are inside one.pdf:C\:\\Users\\Jason\\Zotero\\storage\\4N3KGM4T\\Innes and Valli - 2006 - Honeypots How do you know when you are inside one.pdf:application/pdf}
+}
